@@ -1,0 +1,135 @@
+/* config font */
+.font-01{
+    font-size: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.font-02{
+    font-size: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.title-h1{
+    font-size: 2.2em;
+}
+
+.title-h2{
+    font-size: 1.8em;
+}
+
+.title-h3{
+    font-size: 1.2em;
+}
+
+.font-color-01{
+    color: #fff;
+}
+
+.font-color-03{
+    color: #000;
+}
+
+.font-color-03{
+    color: #405059;
+}
+
+/* config color */
+.bgc-01{
+    background: #ffad08;
+    background: #ca6a30ff;
+}
+
+.bgc-02{
+    background: #0c8f8f;
+    background: #6daeb4ff;
+
+}
+
+.bgc-03{
+    background: #73b06f;
+    background: #d8b9c8ff;
+}
+
+.bgc-04{
+    background: #405059;
+    /* background: #dedee0ff; */
+}
+
+.bgc-05{
+    background: #0c8f8f;
+}
+
+.bgc-06{
+    background: #fff;
+}
+
+.bgc-07{
+    background: #e0e5eb;;
+}
+
+/* display felx */
+.flex{
+    display: flex;
+}
+
+/* box-shadow */
+.box-shadow-01{
+    box-shadow: 1px 1px 6px #fff;
+}
+
+.box-shadow-02{
+    box-shadow: 1px 1px 6px #000;
+}
+
+.box-shadow-hover-01:hover{
+    box-shadow: 1px 1px 6px #fff;
+}
+
+.box-shadow-hover-02:hover{
+    box-shadow: 1px 1px 6px #000;
+}
+
+
+.border-10px-01{
+    border: solid 10px #fff;
+}
+
+.border-10px-02{
+    border: solid 10px #0c8f8f;
+}
+
+.border-10px-03{
+    border: solid 10px #ffad08;
+}
+
+/* border-radius */
+.border-radius-01{
+    border-radius: 6px;
+    border: none;
+}
+
+/* button */
+.btn-01{
+    background: #ffad08;
+    border: none;
+    font-size: 2em;
+    color: #000;
+    /* font-size: 100%; */
+    font-family: 'Nunito', sans-serif;
+}
+
+.cursor-pointer:hover{
+    cursor: pointer;
+}
+
+body{
+    margin: auto;
+    width: 100%;
+    background: #fff;  
+      
+}
+
+.body-90{
+    margin: auto;
+    width: 90%;
+}

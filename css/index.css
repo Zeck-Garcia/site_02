@@ -1,0 +1,24 @@
+.dev{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.a-link:hover{
+    border-bottom: solid 1px #fff;
+}
+
+.icon-whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+}
+
+.icon-whatsapp-items{
+    width: 60px;
+    height: 60px;
+}
+
+.footer-form-buttton{
+    width: 100%;
+}

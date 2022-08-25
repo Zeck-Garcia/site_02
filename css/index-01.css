@@ -1,0 +1,231 @@
+
+
+
+/* header menu */
+    .main-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+    }
+
+    .main-menu-item{
+        padding: 15px 30px;
+        border: solid 1px #ffad08;
+        /* line-height: 2em; */
+        margin-left: 5px;
+        transition: background 500ms ease-in;
+    }
+
+
+    .main-menu-item:hover{
+        background: #ffad08;
+    }
+
+
+
+    /* banner */
+    .banner{
+        margin: auto;
+    }
+
+    .banner-items{
+        width: 100%;
+    }
+
+    /* ruler bar */
+    .ruler-bar{
+        width: 100%;
+        display: flex;
+    }
+
+    .ruler-bar-items{
+        display: flex;
+        flex-direction: column;
+        max-width: 25%;
+        padding: 30px;
+        
+    }
+
+    .ruler-bar-img{
+        width: 76px;
+        height: 76px;
+    }
+
+    .ruler-bar-title{
+        text-transform: uppercase;
+        padding: 20px 0;
+        font-weight: 400;
+    }
+
+    .ruler-bar-text{
+        text-align: left;
+    }
+
+    /* galery */
+
+    .galery{
+        padding: 50px 0;
+        width: 100%;
+        height: 1200px;
+    }
+
+    .galery-div{
+        position: relative;
+        top: 0;
+
+    }
+
+    .galery-info{
+        max-width: 400px;
+        margin: 50px 0 0 10%;
+        position: absolute;
+        padding: 5px;
+    }
+
+    .galery-info-sub{
+        max-width: 380px;
+        padding: 10px;
+        position: absolute;
+        top: 800px;
+        left: 10%;
+        width: 325px;
+    }
+
+    .galery-title{
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+
+    .galery-foto-01{
+        width: 422px;
+        height: 555px;
+        position: absolute;
+        top: 100px;
+        right: 10%;
+    }
+
+    .galery-foto-02{
+        width: 554px;
+        height: 338px;
+        position: absolute;
+        top: 400px;
+        right: 35%;
+    }
+
+    .galery-foto-03{
+        width: 400px;
+        height: 524px;
+        border: solid 10px #fff;
+        position: absolute;
+        top: 600px;
+        left: 40%;
+    }
+
+    .galery-foto-04{
+        width: 300px;
+        height: 300px;;
+        border: solid 10px #0c8f8f;
+        position: absolute;
+        top: 750px;
+        right: 7%;
+    }
+
+    /* service */
+
+    .service{
+        width: 100%;
+        height: 721px;
+        display: flex;
+        position: relative;
+        top: 0;
+        background: #ffad08;
+    }
+
+    .service-info{
+        margin-top: 150px;
+        width: 90%;
+        padding: 0 20px;
+    }
+
+    .service-info-title-01{
+        margin-bottom: 30px;
+    }
+
+    .service-info-text-01{
+        margin: 10px 0 50px 0;
+    }
+
+    .service-info-text-02{
+        margin: 10px 0 50px 0;
+    }
+
+    /* about */
+    .about{
+        padding: 0 0 20px 0;
+    }
+
+    .about-img{
+        width: 100%;
+    }
+
+    .about-info{
+        padding-top: 20px; 
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .about-info-items{
+        max-width: 50%;
+        /* height: 100px; */
+        padding: 10px;
+    }
+
+    /* icon-whatsapp */
+    .icon-whatsapp{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50px;
+    }
+
+    .icon-whatsapp-items{
+        width: 60px;
+        height: 60px;
+    }
+
+    /* footer */
+    .footer{
+        padding: 30px;
+    }
+
+    .footer-form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-form-label{
+        color: #fff;
+    }
+
+    .footer-form-input{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px;
+        font-weight: 300;
+        
+    }
+
+    .footer-form-textarea{
+        max-width: 100%;
+        min-width: 100%;
+        height: 200px;
+    }
+
+    .footer-form-buttton{
+        height: 50px;
+    }
+
