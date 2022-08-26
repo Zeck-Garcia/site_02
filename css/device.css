@@ -1,0 +1,119 @@
+@media (max-width: 800px){
+    .main-header{
+        width: 100%;
+        height: 90px;
+        z-index: 9;
+        position: relative;
+    }
+    
+    .btn-menu{
+        position: absolute;
+        right: 6%;
+        top: 20px;
+        cursor: pointer;
+    }
+
+    .main-menu{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 1000px;
+        opacity: 0.9;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        display: none;
+    }
+    
+    .main-menu-item{
+        padding: 30px;
+        font-weight: 600;
+        margin-top: 30px;
+        transition: border-bottom 300ms ease-in;
+    }
+
+    .main-menu-item:hover{
+        border-bottom: solid 1px #ffad08;
+        /* transform: border-bottom(solid 1px #000); */
+    }
+
+    .btn-close{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 3em;
+    }
+
+    .galery{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galery-title{
+        padding: 10px;
+        font-size: 1.4em
+    }
+
+    .galery-text{
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .galery-foto-01{
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .galery-foto-02{
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .galery-foto-03{
+        width: 90%;
+        margin-top: 20px;
+    }
+    
+    .galery-foto-04{
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .galery-info-sub{
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .service{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .service-info{
+        margin-top: 20px;
+    }
+
+    .service-info-text-01, .service-info-text-02, .service-info-title-01{
+        padding: 20px 0;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .about-img{
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        width: 100%;
+        padding: 10px 0;
+    }
+}

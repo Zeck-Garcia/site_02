@@ -1,88 +1,20 @@
 @media (min-width: 401px) and (max-width: 800px){
-    .main-header{
-        width: 100%;
-        height: 90px;
-        background: #fff;
-        z-index: 9;
-        position: relative;
-    }
-    
-    .btn-menu{
-        position: absolute;
-        right: 6%;
-        top: 20px;
-        cursor: pointer;
-    }
-
-    .main-menu{
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        align-items: center;
-        width: 100%;
-        height: 1000px;
-        background: #405059;
-        opacity: 0.9;
-        position: absolute;
-        top: 0;
-        right: -100%;
-        display: none;
-    }
-
-    .main-menu-item{
-        padding: 30px;
-        color: #ffad08;
-        font-weight: 600;
-        margin-top: 30px;
-        transition: border-bottom 300ms ease-in;
-    }
-
-    .main-menu-item:hover{
-        border-bottom: solid 1px #ffad08;
-        /* transform: border-bottom(solid 1px #000); */
-    }
 
     .img-logo-header{
         width: 170px;
         margin: 15px 20px;
-
-    }
-
-    .btn-close{
-        position: absolute;
-        top: 30px;
-        right: 30px;
-        font-size: 3em;
-        color: #fff;
-    }
-
-    .banner{
-        width: 100%;
-        position: relative;
-    }
-
-    .banner-items{
-        width: 100%;
     }
 
     .main-banner{
         position: absolute;
-        right: 6%;
-        bottom: 20%;
-        transform: translateY(50%);
-        
+        right: 3%;
+        bottom: 30%;
+        transform: translateY(50%);   
     }
 
     .main-title-banner{
-        font-size: 2em;
-    }
-
-    .second-title-banner{
-        font-size: 1.6;
-        padding: 10px;
-        margin-top: 7px;
-        background: #ffad08;
-
+        font-size: 1.4em;
+        text-align: right;
     }
 
     .ruler-bar{
@@ -95,119 +27,15 @@
         max-width: 50%;
     }
 
-    .ruler-bar-img{
-        width: 76px;
-        margin-bottom: 10px;
-    }
-
-    .ruler-bar-title{
-        margin-bottom: 10px;        
-    }
-
-    .galery{
-        margin-top: 30px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: #fff;
-    }
-
-    .galery-title{
-        padding: 10px;
-    }
-
-    .galery-text{
-        padding: 10px;
-        text-align: justify;
-    }
-
-    .galery-foto-01{
-        width: 90%;
-        margin-top: 20px;
-    }
-    
-    .galery-foto-02{
-        width: 90%;
-        margin-top: 20px;
-    }
-    
-    .galery-foto-03{
-        width: 90%;
-        margin-top: 20px;
-    }
-    
-    .galery-foto-04{
-        width: 90%;
-        margin: 20px 0;
-    }
-
-    .galery-info-sub{
-        padding: 10px;
-        margin-bottom: 20px;
-        text-align: justify;
-    }
-
-    .service{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        background: #e0e5eb;
-    }
-
-    .service-img{
-        width: 90%;
-    }
-
-    .service-info{
-        width: 90%;
-        margin-top: 20px;
-    }
-
-    .service-info-img{
-        width: 76px;
-    }
-
-    .service-info-text-01, .service-info-text-02, .service-info-title-01{
-        padding: 20px 0;
-    }
-
-    .about{
-        width: 100%;
-
-    }
-
-    .about-img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
     .about-info{
         display: flex;
         flex-wrap: wrap;
     }
     .about-info-items{
-        padding: 10px;
         max-width: 50%;
-    }
-
-    .footer{
-        width: 100%;
-        padding: 10px 0;
     }
 
     .footer-form{
         margin-top: 10px;
     }
-
-    .footer-form-input{
-        width: 100%;
-        height: 50px;
-        margin-bottom: 20px;
-        font-weight: 300;
-        
-    }
-
 }
