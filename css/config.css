@@ -71,6 +71,10 @@
     display: flex;
 }
 
+.block{
+    display: block;
+}
+
 /* box-shadow */
 .box-shadow-01{
     box-shadow: 1px 1px 6px #fff;
